@@ -20,6 +20,7 @@ processed-fuel/1
 ]
 
 consumes: {
+power: 3.35
 items: [
 coal/5
 ]
