@@ -1,0 +1,13 @@
+{
+type: material
+name: processed fuel
+description: processed coal in a fuel processor, has twice the efficiency and five times the throughput capability of coal
+cost: 3.0
+color: ffffff
+research: fuel-processor
+explosiveness: 2
+flammability: 10
+radioactivity: 0
+charge: 0
+hardness: 0
+}
