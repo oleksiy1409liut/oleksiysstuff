@@ -1,0 +1,42 @@
+{
+name: fuel liquefactor
+description: uses pressure to turn processed fuel and some oil into more oil and some coal as byproduct
+type: GenericCrafter
+health: 250
+size: 3
+category: crafting
+research: "oil"
+researchCost: [
+    processed-fuel/100
+    coal/500
+    thorium/250
+    graphite/750
+    silicon/750
+    copper/1250
+    lead/1000
+    
+  ]
+craftTime: 200
+craftEffect: reactorsmoke
+outputLiquid: oil/1.5
+outputItem: coal/1
+
+consumes: {
+power: 3.3
+liquids: [
+oil/0.3
+]
+items: [
+processed-fuel/2
+]
+}
+
+requirements: [
+titanium/50
+copper/80
+lead/50
+silicon/25
+graphite/35
+thorium/10
+]
+}
