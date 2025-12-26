@@ -5,7 +5,7 @@ description: processed coal in a fuel processor, has twice the efficiency and fi
 cost: 3.0
 color: ffffff
 research: fuel-processor
-explosiveness: 2
+explosiveness: 0.4
 flammability: 10
 radioactivity: 0
 charge: 0
