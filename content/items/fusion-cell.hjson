@@ -1,0 +1,13 @@
+{
+type: material
+name: fusion cell
+description: heavily radioactive fusion fuel inside a secure cell
+cost: 3.0
+color: ffffff
+research: copper
+explosiveness: 5
+flammability: 10
+radioactivity: 100
+charge: 1
+hardness: 2
+}
