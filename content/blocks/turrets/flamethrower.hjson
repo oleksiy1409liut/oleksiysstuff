@@ -1,0 +1,50 @@
+type: ItemTurret
+name: flamethrower
+description: Fires liqued fuel at enemies that burns them to smithereens but can damage your own buildings too.
+size: 3
+reload: 1
+range: 250
+recoil: 0
+category: turret
+shootSound: flame
+outlineColor: 42413e
+research: liquid-fuel
+researchCostMultiplier: 2
+requirements: [
+  carbon-fiber/50
+  thorium/25
+  titanium/50
+  copper/200
+  lead/150
+  silicon/100
+  graphite/100
+]
+targetGround: true
+targetAir: true
+ammoTypes: {
+  liquid-fuel: {
+    damage: 20
+	pierce: true
+	pierceBuilding: true
+    status: melting
+	makeFire: true
+    speed: 5
+	ammoMultiplier: 10
+	lifetime: 300
+    despawnEffect: none
+    width: 0.01
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 11
+      length: 140
+      lifetime: 34
+      interp: circleOut
+      cone: 3
+      colorFrom: ffdd55
+      colorTo: db401c
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+  }
+}
