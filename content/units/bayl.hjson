@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "name": "[orange]bayl",
-  "description": "through the processed fuel technology we have invented fueled tanks that are actually strong! this unit needs processed fuel in its production but it gives the unit good speed and damage.",
+  "description": "through the processed fuel technology we have invented fueled tanks that are actually strong! this unit needs processed fuel in its production but it gives the unit good speed and damage, slightly bad against buildings.",
   "health": 750,
   "armor": 5,
   "squareShape": true,
@@ -38,9 +38,9 @@
         "height": 10,
         "speed": 3,
         "lifetime": 80,
-        "damage": 35,
+        "damage": 30,
         "pierce": false,
-        "buildingDamageMultiplier": 2.8
+        "buildingDamageMultiplier": 0.9
       }
     }
   ],
