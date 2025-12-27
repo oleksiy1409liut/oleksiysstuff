@@ -8,9 +8,6 @@ alwaysUnlocked: false
 research: {
   parent: tarFields
   objectives: [
-    researchCost: [
-    processed-fuel/250
-  ]
     {
       type: SectorComplete
       preset: tarFields
