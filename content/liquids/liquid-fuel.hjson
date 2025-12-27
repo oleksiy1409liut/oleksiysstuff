@@ -11,11 +11,5 @@ gasColor: ffffff00
 barColor: ffffff33
 incinerable: true
 lightColor: ffffff00
-research: {
-  parent: fuel-refinery
-  objectives: [ 
-    researchCost: [
-    processed-fuel/100
-   ]
-]
+research: fuel-refinery
 }
