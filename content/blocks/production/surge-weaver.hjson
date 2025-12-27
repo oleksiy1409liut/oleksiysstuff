@@ -3,7 +3,7 @@ name: surge weaver
 description: uses a better recipe of surge alloy for thrice the productivity, the recipe being carbon fiber, titanium and silicon with oil, gives out some oil back as byproduct
 type: GenericCrafter
 health: 250
-size: 4
+size: 3
 category: crafting
 research: "surge-alloy"
 researchCost: [
