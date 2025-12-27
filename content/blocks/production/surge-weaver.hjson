@@ -1,0 +1,46 @@
+{
+name: surge weaver
+description: uses a better recipe of surge alloy for thrice the productivity, the recipe being carbon fiber, titanium and silicon with oil, gives out some oil back as byproduct
+type: GenericCrafter
+health: 250
+size: 4
+category: crafting
+research: "surge-alloy"
+researchCost: [
+    carbon-fiber/100
+    processed-fuel/250
+    thorium/500
+    graphite/1000
+    silicon/1000
+    copper/1750
+    lead/1500
+    surge-alloy/100
+    
+  ]
+craftTime: 180
+craftEffect: reactorsmoke
+outputLiquid: oil/0.1
+outputItem: surge-alloy/3
+
+consumes: {
+power: 5
+liquids: [
+oil/1
+]
+items: [
+carbon-fiber/1
+silicon/2
+titanium/1
+]
+}
+
+requirements: [
+titanium/100
+copper/120
+lead/100
+silicon/75
+graphite/75
+thorium/25
+surge-alloy/10
+]
+}
