@@ -1,0 +1,21 @@
+{
+type: material
+name: carbon fiber
+description: woven from metaglass, sand and processed fuel, used in launchpad cargo carriers and weaponry, very flexible and heat-proof
+cost: 3.0
+color: ffffff
+research: {
+  parent: carbon-weaver
+  objectives: [
+    {
+      type: SectorComplete
+      preset: fuel-research-facility
+    }
+  ]
+}
+explosiveness: 0
+flammability: 0.01
+radioactivity: 0
+charge: 0
+hardness: 1
+}
