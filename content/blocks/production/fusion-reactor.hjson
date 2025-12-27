@@ -23,7 +23,7 @@ outputItem: energy-cell/10
 consumes: {
 power: 250
 liquids: [
-cryfluid/4.5
+cryofluid/4.5
 ]
 items: [
 fusion-cell/10
