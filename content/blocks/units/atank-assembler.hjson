@@ -1,6 +1,6 @@
 {
   "type": "unitFactory",
-  "name": "tank assembler",
+  "name": "tank assembler.",
   "description": "assembles the bayl tier tanks.",
   "size": 3,
   "consumes": {
