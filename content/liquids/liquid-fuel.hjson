@@ -16,6 +16,6 @@ research: {
   objectives: [ 
     researchCost: [
     processed-fuel/100
-  ]
-  ]
+   ]
+]
 }
