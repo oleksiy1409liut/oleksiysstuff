@@ -17,13 +17,13 @@ craftEffect: reactorsmoke
 outputItems: [
 processed-fuel/1
 ]
-consumes: [
+consumes: {
   power: 1.5
   items: [
   titanium/2
   metaglass/1
 ]
-  ]
+}
 requirements: [
     copper/100
     lead/100
