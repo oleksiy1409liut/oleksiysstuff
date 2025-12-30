@@ -15,7 +15,7 @@ researchCost: [
 craftTime: 160
 craftEffect: reactorsmoke
 outputItems: [
-processed-fuel/1
+empty-cell/1
 ]
 consumes: {
   power: 1.5
