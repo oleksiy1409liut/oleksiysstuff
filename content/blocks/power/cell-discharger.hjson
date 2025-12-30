@@ -1,0 +1,49 @@
+type: ConsumeGenerator
+name: cell discharger
+description: generates a massive amount of power from discharging energy-filled cells, uses lead as activator
+size: 4
+category: power
+squareSprite: false
+research: fusion-reactor
+requirements: [
+  copper/125
+  titanium/60
+  lead/150
+  silicon/75
+  graphite/80
+]
+powerProduction: 20
+outputItem: empty-cell/1
+consumes: {
+  items: [
+    energy-cell/1
+    lead/1
+  ]
+}
+itemDuration: 600
+generateEffectRange: 0
+generateEffect: {
+  type: RadialEffect
+  rotationSpacing: 90
+  amount: 16
+  lengthOffset: 6.3
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 6
+    lifetime: 240
+    sizeFrom: 2.8
+    useRotation: false
+    baseRotation: 90
+    sizeTo: 1.1
+    colorFrom: d7775100
+    colorTo: fca98888
+    length: 12
+    baseLength: 15
+    cone: 9
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+  }
+}
+researchCostMultiplier: 0.1
