@@ -1,0 +1,33 @@
+{
+name: cell fabricator
+description: produces secure empty cells from metaglass and titanium
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: "titanium"
+researchCost: [
+    titanium/150
+    copper/250
+    lead/200
+    silicon/100
+  ]
+craftTime: 160
+craftEffect: reactorsmoke
+outputItems: [
+processed-fuel/1
+]
+consumes: [
+  power: 1.5
+  items: [
+  titanium/2
+  metaglass/1
+]
+]
+requirements: [
+    copper/100
+    lead/100
+    graphite/75
+    silicon/75
+    titanium/50
+    metaglass/50
