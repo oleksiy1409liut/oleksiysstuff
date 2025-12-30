@@ -1,0 +1,13 @@
+{
+type: material
+name: solid fuel
+description: solid version of liquid fuel, used in flamethrowers (when flamethrowers consume liquid fuel they dont work properly idk why)
+cost: 3.0
+color: ffffff
+research: liquid-fuel
+explosiveness: 0
+flammability: 10
+radioactivity: 0
+charge: 0
+hardness: 0.5
+}
