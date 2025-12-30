@@ -13,7 +13,9 @@ requirements: [
   graphite/80
 ]
 powerProduction: 150
-outputItem: empty-cell/1
+outputItems: [
+    empty-cell/1
+]
 consumes: {
   items: [
     energy-cell/1
