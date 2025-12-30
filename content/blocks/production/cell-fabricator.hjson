@@ -22,7 +22,7 @@ consumes: [
   items: [
   titanium/2
   metaglass/1
-]
+  ]
 ]
 requirements: [
     copper/100
