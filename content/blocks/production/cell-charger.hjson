@@ -3,7 +3,7 @@ name: cell charger
 description: charges empty cells into energy cells, uses lead as activator and consumes a little bit more than it produces
 type: GenericCrafter
 health: 200
-size: 3
+size: 4
 category: crafting
 research: cell-fabricator
 craftTime: 600
