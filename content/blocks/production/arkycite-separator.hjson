@@ -17,8 +17,10 @@ researchCost: [
 craftTime: 200
 craftEffect: reactorsmoke
 outputLiquid: water/1
-outputItem: arkyic-algae/1
-
+outputItems: [ 
+arkyic-algae/1
+beryllium/2
+]
 consumes: {
 power: 3.6
 liquids: [
