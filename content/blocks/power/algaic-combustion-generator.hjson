@@ -1,0 +1,26 @@
+type: ConsumeGenerator
+name: algaic combustion generator
+description: generates a moderate amount of power from arkyic algae and hydrogen through a combustion process, useful in sectors with low water concentration by using arkycite separators wiht this, has a little water byproduct
+size: 3
+category: power
+squareSprite: false
+research: arkyic-algae
+requirements: [
+  beryllium/125
+  oxide/60
+  graphite/150
+  silicon/75
+  tungsten/80
+]
+powerProduction: 12
+outputLiquid: water/0.5
+consumes: {
+  items: [
+    arkyic-algae/1
+  ]
+  liquids: [
+    hydrogen/0.05
+  ]
+}
+itemDuration: 150
+researchCostMultiplier: 0.1
