@@ -21,6 +21,7 @@ arkyic-algae/4
 ]
 liquids: [
 water/1
+neoplasm/1
 ]
 }  
 requirements: [
