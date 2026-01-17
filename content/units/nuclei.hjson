@@ -1,0 +1,48 @@
+{
+  "type": "tank",
+  "name": "[red]nuclei",
+  "description": "the first tier of the neoplasmian tanks, instead of energy it uses neoplasm to work, shoots railgun-like shells with a lot of speed and damage, the neoplasm allows it to be smarter and faster due to its density, tungsten plating allows for more armor than normal tanks",
+  "health": 2600,
+  "armor": 12,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": false,
+  "rotateSpeed": 5,
+  "faceTarget": false,
+  "flying": false,
+  "range": 210,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "nuclei-weapon",
+      "y": -1,
+      "reload": 180,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 60,
+        "lifetime": 80,
+        "damage": 200,
+        "pierce": true,
+        "buildingDamageMultiplier": 0.9
+      }
+    }
+  ],
+  "research": "neoplasm"
+}
