@@ -25,7 +25,7 @@
       "x": 0,
       "name": "nuclei-weapon",
       "y": -1,
-      "reload": 180,
+      "reload": 240,
       "mirror": false,
       "rotate": true,
       "shoot": {
@@ -37,10 +37,10 @@
         "width": 6,
         "height": 10,
         "speed": 60,
-        "lifetime": 80,
-        "damage": 200,
+        "lifetime": 30,
+        "damage": 270,
         "pierce": true,
-        "buildingDamageMultiplier": 0.9
+        "buildingDamageMultiplier": 1.2
       }
     }
   ],
