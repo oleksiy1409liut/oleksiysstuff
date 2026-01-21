@@ -1,0 +1,32 @@
+{
+  "type": "unitFactory",
+  "name": "neoplastic fabricator",
+  "description": "assembles the nuclei tier tanks.",
+  "size": 3,
+  "consumes": {
+    "power": 5
+  liquids: [
+       neoplasm/2
+    ]
+  },
+  "plans": [
+    {
+      "unit": "nuclei",
+      "requirements": [
+        "silicon/80",
+        "tungsten/25",
+        "carbide/25",
+        "beryllium/100"
+      ],
+      "time": 3000
+    },
+  ],
+  "requirements": [
+    "silicon/180",
+    "graphite/140",
+    "beryllium/230",
+    "thorium/60",
+  ],
+  "category": "units",
+  "research": "neoplasm",
+}
