@@ -8,4 +8,4 @@ minGameVersion: 154
 version: " kinda unfinished"
 displayName: "oleksiy's stuff"
 subtitle: "roc"
-dependencies: []
+dependencies: ["hjsonpp",]
