@@ -2,9 +2,9 @@ type: OverHeatTurret
 name: WDB
 description: secret superweapon called "When Day Breaks", shoots superhot cubes of fuel onto eenemies to burn them into ashes.
 size: 3
-reload: 1
+reload: 2
 range: 275
-recoil: 0
+recoil: 5
 category: turret
 shootSound: flame
 outlineColor: 42413e
@@ -24,8 +24,8 @@ targetAir: true
 ammoTypes: {
   solid-fuel: {
     damage: 50
-    overHeatAmount: 30
-    timeToCooldown: 120
+    overHeatAmount: 19
+    timeToCooldown: 90
 	pierce: true
 	pierceBuilding: true
     status: melting
