@@ -2,7 +2,7 @@ type: OverHeatTurret
 name: railgun
 description: huge turret that uses energy and cryofluid to shoot high-speed piercing railgun shells with HUGE damage, has a giant range, can only target ground targets, stops working for some time after several shots due to overheat
 size: 5
-reload: 2400
+reload: 600
 range: 600
 recoil: 0
 category: turret
