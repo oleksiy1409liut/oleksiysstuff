@@ -5,7 +5,7 @@ type: ColliderCrafter
 health: 200
 size: 5
 category: crafting
-research: cell-fabricator
+research: silicon-arc-smelter
 craftTime: 150
 craftEffect: reactorsmoke
 outputItems: [
