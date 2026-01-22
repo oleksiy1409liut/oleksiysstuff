@@ -2,7 +2,7 @@
 name: silicon arc collider
 description: use particle accelerator technology to smelt huge amounts of silicon at high speeds from not much sand and graphite, has a moderate chance to fail the recipe though
 type: ColliderCrafter
-health: 200
+health: 1200
 size: 5
 category: crafting
 research: silicon-arc-smelter
