@@ -11,7 +11,7 @@ craftEffect: reactorsmoke
 outputItems: [
 silicon/20
 ]
-produceChance: 50
+produceChance: 50%
 consumes: {
 power: 15
 items: [
