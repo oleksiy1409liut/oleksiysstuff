@@ -1,0 +1,12 @@
+{
+type: material
+name: railgun shell
+description: a high-speed piercing railgun shell consisting of several processed fuel rods, 15 blast compound and 10 titanium, used in railgun turrets
+cost: 3.0
+color: ffffff
+research: processed-fuel
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
