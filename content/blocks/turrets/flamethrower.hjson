@@ -1,6 +1,6 @@
-type: ItemTurret
-name: flamethrower
-description: Fires solid fuel at enemies that burns them to smithereens.
+type: OverHeatTurret
+name: WDB
+description: secret superweapon called "When Day Breaks", shoots superhot cubes of fuel onto eenemies to burn them into ashes.
 size: 3
 reload: 1
 range: 275
@@ -23,14 +23,16 @@ targetGround: true
 targetAir: true
 ammoTypes: {
   solid-fuel: {
-    damage: 25
+    damage: 50
+    overHeatAmount: 30
+    timeToCooldown: 120
 	pierce: true
 	pierceBuilding: true
     status: melting
 	makeFire: true
     speed: 4
 	ammoMultiplier: 20
-	lifetime: 600
+	lifetime: 60
     despawnEffect: none
     width: 0.01
     height: 0.01
