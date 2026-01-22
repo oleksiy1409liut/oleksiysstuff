@@ -1,0 +1,29 @@
+{
+name: silicon arc collider
+description: use particle accelerator technology to smelt huge amounts of silicon at high speeds from not much sand and graphite, has a moderate chance to fail the recipe though
+type: ColliderCrafter
+health: 200
+size: 5
+category: crafting
+research: cell-fabricator
+craftTime: 150
+craftEffect: reactorsmoke
+outputItems: [
+silicon/20
+]
+produceChance: 50
+consumes: {
+power: 15
+items: [
+sand/9
+graphite/7
+]
+}  
+requirements: [
+beryllium/150
+tungsten/80
+silicon/125
+thorium/75
+oxide/60
+]
+}
