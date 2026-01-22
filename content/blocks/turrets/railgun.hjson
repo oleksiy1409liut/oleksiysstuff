@@ -1,0 +1,59 @@
+type: OverHeatTurret
+name: railgun
+description: huge turret that uses energy and cryofluid to shoot high-speed piercing railgun shells with HUGE damage, has a giant range, can only target ground targets, stops working for some time after several shots due to overheat
+size: 5
+reload: 2
+range: 600
+recoil: 0
+category: turret
+outlineColor: 42413e
+research: foreshadow
+researchCostMultiplier: 2
+requirements: [
+  carbon-fiber/400
+  thorium/500
+  titanium/5750
+  copper/2500
+  lead/2100
+  silicon/1200
+  graphite/1400
+  surge-alloy/350
+  phase-fabric/400
+]
+targetGround: true
+consumes: {
+ power: 12
+ liquids: [
+   cryofluid/1
+]
+}
+targetAir: false
+ammoTypes: {
+  railgun-shell: {
+    damage: 3500
+    overHeatAmount: 3
+    timeToCooldown: 240
+	pierce: true
+	pierceBuilding: true
+    status: burning
+	makeFire: true
+    speed: 60
+	ammoMultiplier: 1
+	lifetime: 60
+    despawnEffect: none
+    width: 0.2
+    height: 0.2
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 11
+      length: 280
+      lifetime: 60
+      interp: circleOut
+      cone: 3
+      colorFrom: ffdd55
+      colorTo: db401c
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+  }
+}
