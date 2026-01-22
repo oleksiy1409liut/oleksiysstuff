@@ -1,0 +1,10 @@
+type: StatusEffect
+name: turning to ashes
+description: its turning to ashes from fire, I T S C R E A M S F O R M E R C Y , B U T T H E R E S N O M E R C Y .
+reloadMultiplier: 0.2
+speedMultiplier: 0.3
+intervalDamagePierce: true
+intervalDamageTime: 6
+intervalDamage: 45
+permanent: true
+effect: melting
