@@ -11,13 +11,15 @@ outlineColor: 42413e
 research: solid-fuel
 researchCostMultiplier: 2
 requirements: [
-  carbon-fiber/50
-  thorium/25
-  titanium/50
-  copper/200
-  lead/150
-  silicon/100
-  graphite/100
+  carbon-fiber/200
+  thorium/250
+  titanium/500
+  copper/2000
+  lead/1500
+  silicon/1000
+  graphite/1000
+  surge-alloy/100
+  phase-fabric/200
 ]
 targetGround: true
 targetAir: true
