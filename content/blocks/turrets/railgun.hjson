@@ -8,7 +8,7 @@ recoil: 0
 category: turret
 outlineColor: 42413e
 research: foreshadow
-researchCostMultiplier: 2
+researchCostMultiplier: 0.9
 requirements: [
   carbon-fiber/400
   thorium/500
