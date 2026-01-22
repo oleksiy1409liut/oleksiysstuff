@@ -1,0 +1,41 @@
+{
+name: railgun shell fabricator
+description: fabricates railgun shells with a high chance of failure, if the recipe fails you get scrap
+type: Separator
+health: 1000
+size: 5
+category: crafting
+research: "surge-alloy"
+researchCost: [
+    coal/150
+    copper/250
+    lead/200
+    silicon/100
+    titanium/50
+  ]
+craftTime: 120
+craftEffect: reactorsmoke
+results:[
+scrap/99
+railgun-shell/1
+] 
+
+
+consumes: {
+power: 6
+items: [
+processed-fuel/5
+blast-compound/15
+titanium/10
+]
+}  
+requirements: [
+lead/250
+graphite/250
+copper/500
+titanium/175
+silicon/250
+thorium/100
+  plastanium/150
+]
+}
