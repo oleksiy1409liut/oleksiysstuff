@@ -6,6 +6,7 @@ health: 1200
 size: 5
 category: crafting
 research: silicon-arc-smelter
+itemCapacity: 100
 craftTime: 150
 craftEffect: reactorsmoke
 outputItems: [
