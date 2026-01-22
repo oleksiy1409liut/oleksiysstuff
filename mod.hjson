@@ -2,6 +2,7 @@ name: "oleksiyresprites"
 description: 
 ''' 
 random additional stuff in the game, beta versions only, credit to photon_gravity for the galvanized subunit sprite that i used for GSS
+needs hjson++ for more functionality
 '''
 author: "oleskiy"
 minGameVersion: 154
