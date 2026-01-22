@@ -28,7 +28,7 @@ ammoTypes: {
     timeToCooldown: 90
 	pierce: true
 	pierceBuilding: true
-    status: turning-to-ashes
+    status: melting
 	makeFire: true
     speed: 4
 	ammoMultiplier: 20
