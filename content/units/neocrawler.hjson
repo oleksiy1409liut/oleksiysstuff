@@ -1,5 +1,6 @@
 {
-  "type": "NeoplasmUnitType",
+  "type": "crawl",
+  "template": "NeoplasmUnitType",
   "name": "neocrawler",
   "description": "rams into enemy constructs, the second neoplasm creation, has small amount of health but is fast and has moderate armor",
   "health": 250,
@@ -19,6 +20,11 @@
   "rotateSpeed": 5,
   "faceTarget": true,
   "flying": false,
+  "crushDamage": 5,
+  "physics": false,
+  "circleTarget": true,
+  "useUnitCap": false,
+  
   "range": 20,
   "weapons": [
     {
@@ -38,7 +44,7 @@
         "height": 10,
         "speed": 1,
         "lifetime": 10,
-        "damage": 10,
+        "damage": 15,
         "pierce": true,
         "buildingDamageMultiplier": 1
       }
