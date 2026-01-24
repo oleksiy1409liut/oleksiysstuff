@@ -21,7 +21,7 @@
   "rotateSpeed": 5,
   "faceTarget": true,
   "flying": false,
-  "crushDamage": 0.02,
+  "crushDamage": 0.07,
   "physics": false,
   "circleTarget": true,
   "useUnitCap": false,
