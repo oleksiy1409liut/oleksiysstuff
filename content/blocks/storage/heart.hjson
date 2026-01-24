@@ -1,0 +1,15 @@
+type: CoreBlock
+name: heart
+description: I T G R O W S
+isFirstTier: true
+size: 3
+squareSprite: false
+requirements: [
+  fissile-matter/30000
+]
+alwaysUnlocked: true
+unitType: neocrawler
+health: 6500
+itemCapacity: 2800
+unitCapModifier: 1000
+category: effect
