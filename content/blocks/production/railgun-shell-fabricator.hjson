@@ -16,6 +16,7 @@ researchCost: [
     surge-alloy/150
   ]
 craftTime: 120
+itemCapacity: 45
 craftEffect: reactorsmoke
 results:[
 scrap/99
