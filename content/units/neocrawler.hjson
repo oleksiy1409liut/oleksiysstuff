@@ -20,35 +20,9 @@
   "rotateSpeed": 5,
   "faceTarget": true,
   "flying": false,
-  "crushDamage": 5,
+  "crushDamage": 0.5,
   "physics": false,
   "circleTarget": true,
   "useUnitCap": false,
-  
-  "range": 5,
-  "weapons": [
-    {
-      "x": 0,
-      "name": "neocrawler-mouth",
-      "y": -1,
-      "reload": 30,
-      "mirror": false,
-      "rotate": true,
-      "shoot": {
-        "shots": 1,
-        "shotDelay": 2
-      },
-      "bullet": {
-        "type": "BasicBulletType",
-        "width": 6,
-        "height": 10,
-        "speed": 1,
-        "lifetime": 5,
-        "damage": 15,
-        "pierce": false,
-        "buildingDamageMultiplier": 1
-      }
-    }
-  ],
   "research": "neoplastic-fabricator"
 }
