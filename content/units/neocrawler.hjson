@@ -1,0 +1,48 @@
+{
+  "type": "NeoplasmUnitType",
+  "name": "neocrawler",
+  "description": "rams into enemy constructs, the second neoplasm creation, has small amount of health but is fast and has moderate armor",
+  "health": 250,
+  "armor": 4,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": false,
+  "rotateSpeed": 5,
+  "faceTarget": true,
+  "flying": false,
+  "range": 20,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "neocrawler-mouth",
+      "y": -1,
+      "reload": 30,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 1,
+        "lifetime": 10,
+        "damage": 10,
+        "pierce": true,
+        "buildingDamageMultiplier": 1
+      }
+    }
+  ],
+  "research": "neoplastic-fabricator"
+}
