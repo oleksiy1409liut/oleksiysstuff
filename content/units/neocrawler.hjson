@@ -16,11 +16,12 @@
     }
   ],
   "singleTarget": true,
+  "range": 0,
   "omniMovement": false,
   "rotateSpeed": 5,
   "faceTarget": true,
   "flying": false,
-  "crushDamage": 0.5,
+  "crushDamage": 0.02,
   "physics": false,
   "circleTarget": true,
   "useUnitCap": false,
