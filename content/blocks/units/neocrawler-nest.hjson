@@ -1,0 +1,19 @@
+name: neocrawler nest
+size: 3
+description: T H E I R H O M E
+type: unitFactory
+configurable: false
+isBuildable: false
+squareSprite: false
+consumes: {}
+plans: [
+{
+unit: neocrawler
+  requirements: []
+time: 2400
+}
+]
+category: units
+requirements: [
+oxide/50000
+]
