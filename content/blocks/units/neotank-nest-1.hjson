@@ -1,0 +1,19 @@
+name: neotank nest 1
+size: 3
+description: T H E Y L E A R N
+type: unitFactory
+configurable: false
+isBuildable: false
+squareSprite: false
+consumes: {}
+plans: [
+{
+unit: exception
+  requirements: []
+time: 2900
+}
+]
+category: units
+requirements: [
+dormant-cyst/50000
+]
