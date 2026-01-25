@@ -1,7 +1,7 @@
 localizedName: slag canal
 description: this sector is a tight canal between 2 great slag rivers, the enemies have set up a moderately defended base, use any means of offense and capture this canal.
 captureWave: 0
-planet: serpulo
+planet: erekir
 sector: 25
 difficulty: 5
 alwaysUnlocked: false
