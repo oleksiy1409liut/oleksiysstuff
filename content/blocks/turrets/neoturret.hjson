@@ -9,6 +9,8 @@
   "shootType": {
     "type": "BasicBulletType",
     "lightningLength": 18,
+    "lifetime": 80,
+    "speed": 2
     "damage": 50
   },
   "rotateSpeed": 100,
