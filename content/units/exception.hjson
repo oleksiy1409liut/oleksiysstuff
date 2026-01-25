@@ -16,6 +16,8 @@
     }
   ],
   "singleTarget": true,
+  "physics": false,
+  "crushDamage": 0.05,
   "omniMovement": false,
   "rotateSpeed": 5,
   "faceTarget": false,
