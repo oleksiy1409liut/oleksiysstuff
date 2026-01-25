@@ -1,0 +1,39 @@
+{
+  "name": "neoturret",
+  "description": "I T H A T E S Y O U",
+  "size": 2,
+  "range": 130,
+  "reload": 30,
+  "shootSound": "spark",
+  "shootCone": 30,
+  "shootType": {
+    "type": "BasicBulletType",
+    "lightningLength": 18,
+    "damage": 50
+  },
+  "rotateSpeed": 100,
+  "consumes": {}
+  },
+  "targetAir": false,
+  "targetGround": true,
+  "heatColor": "ff0000",
+  "shootEffect": "lightningShoot",
+  "recoil": 0.5,
+  "requirements": [
+    {
+      "item": "oxide",
+      "amount": 15000
+    },
+    {
+      "item": "graphite",
+      "amount": 15000
+    },
+    {
+      "item": "silicon",
+      "amount": 2000
+    }
+  ],
+  "category": "turret",
+  "type": "PowerTurret",
+  "health": 1000,
+}
