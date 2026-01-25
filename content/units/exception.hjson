@@ -1,0 +1,48 @@
+{
+  "type": "tank",
+  "name": "exception",
+  "description": "small tank of the neoplasm hive, shoots small bullets with small damage but kinda fast shooting speed, very weak and has almost no armor, these CAN attack units unlike neocrawlers so keep your units away from them",
+  "health": 320,
+  "armor": 1,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": false,
+  "rotateSpeed": 5,
+  "faceTarget": false,
+  "flying": false,
+  "range": 75,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "exception-weapon",
+      "y": 0,
+      "reload": 30,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 1
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 60,
+        "damage": 25,
+        "pierce": false,
+        "buildingDamageMultiplier": 1.1
+      }
+    }
+  ],
+  "research": "neocrawler"
+}
