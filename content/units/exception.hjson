@@ -1,5 +1,6 @@
 {
   "type": "tank",
+  "template": "NeoplasmUnitType",
   "name": "exception",
   "description": "small tank of the neoplasm hive, shoots small bullets with small damage but kinda fast shooting speed, very weak and has almost no armor, these CAN attack units unlike neocrawlers so keep your units away from them",
   "health": 320,
