@@ -13,7 +13,7 @@ requirements: [
   tungsten/80
 ]
 powerProduction: 12
-outputLiquid: water/0.5
+outputLiquid: water/0.2
 consumes: {
   items: [
     arkyic-algae/1
