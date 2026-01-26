@@ -3,6 +3,7 @@
     size: 1
     category: defense
     name: neoplasm vein
+    underBullets: true
 requirements: [
   phase-fabric/2000
   oxide/3000
