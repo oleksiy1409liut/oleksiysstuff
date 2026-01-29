@@ -1,6 +1,6 @@
 type: ItemTurret
 name: bullet
-description: fires small and weak bullets at enemies, the first weapon of the [red]solecian [white]faction, can only target ground targets, has a slight splash damage buff.
+description: fires small and weak bullets at enemies, the first weapon of the solecian faction, can only target ground targets, has a slight splash damage buff.
 size: 2
 reload: 30
 shoot: {
