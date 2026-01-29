@@ -1,0 +1,41 @@
+type: ItemTurret
+name: bullet
+description: fires small and weak bullets at enemies, the first weapon of the [red]solecian [white]faction, can only target ground targets, has a slight splash damage buff.
+size: 2
+reload: 30
+shoot: {
+  shots: 1
+  shotDelay: 2
+}
+range: 210
+category: turret
+shootSound: shoot-dull
+outlineColor: 42413e
+research: {
+  parent: graphite
+  requirements: [
+    beryllium/250
+    graphite/130
+  ]
+}
+requirements: [
+  beryllium/75
+  graphite/25
+]
+targetGround: true
+targetAir: true
+ammoTypes: {
+  beryllium: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    damage: 20
+    speed: 4
+    lifetime: 60
+    collidesGround: true
+    collidesAir: false
+    ammoMultiplier: 2
+    splashDamage: 13
+    splashDamageRadius: 12
+  }
+}
