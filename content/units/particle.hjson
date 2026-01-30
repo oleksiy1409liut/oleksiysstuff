@@ -35,7 +35,7 @@ weapons: [
     chargeSound: short-laser-charge
     bullet: {
       type: LaserBulletType
-      colors: [85c278, 9be98b, ffffff]
+      colors: [ff795e, ff795e, ff795e]
       width: 2
       length: 108
       damage: 24
@@ -46,7 +46,7 @@ weapons: [
       chargeEffect: lightningCharge
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
-      hitColor: 85c278
+      hitColor: ff795e
     }
   }
 ]
