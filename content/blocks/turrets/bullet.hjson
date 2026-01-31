@@ -2,7 +2,7 @@ type: ItemTurret
 name: bullet
 description: fires small and weak bullets at enemies, the first weapon of the solecian faction, can only target ground targets, has a slight splash damage buff.
 size: 2
-reload: 30
+reload: 20
 shoot: {
   shots: 1
   shotDelay: 2
@@ -12,7 +12,7 @@ category: turret
 shootSound: shootAvert
 outlineColor: 42413e
 research: {
-  parent: pyronite
+  parent: solacean-gate
   requirements: [
     beryllium/250
     graphite/130
@@ -22,6 +22,7 @@ requirements: [
   beryllium/75
   graphite/25
 ]
+inaccuracy: 10
 targetGround: true
 targetAir: true
 ammoTypes: {
@@ -37,5 +38,18 @@ ammoTypes: {
     ammoMultiplier: 2
     splashDamage: 13
     splashDamageRadius: 12
+  }
+  pyronite: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    damage: 43
+    speed: 5
+    lifetime: 60
+    collidesGround: true
+    collidesAir: true
+    ammoMultiplier: 1
+    splashDamage: 23
+    splashDamageRadius: 36
   }
 }
