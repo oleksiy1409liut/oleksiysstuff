@@ -9,10 +9,10 @@ shoot: {
 }
 range: 210
 category: turret
-shootSound: shoot-dull
+shootSound: shootAvert
 outlineColor: 42413e
 research: {
-  parent: graphite
+  parent: breach
   requirements: [
     beryllium/250
     graphite/130
