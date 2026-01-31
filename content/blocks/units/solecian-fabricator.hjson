@@ -3,6 +3,7 @@
   "name": "solecian fabricator",
   "description": "produces the solecian faction units of the first iteration.",
   "size": 3,
+   configurable: true
   "consumes": {
     "power": 2.75
   },
