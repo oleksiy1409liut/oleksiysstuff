@@ -2,6 +2,7 @@ name: neocrawler nest
 size: 3
 description: T H E I R H O M E
 type: unitFactory
+buildVisibility: editorOnly
 configurable: false
 isBuildable: false
 squareSprite: false
