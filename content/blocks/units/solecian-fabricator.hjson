@@ -1,0 +1,26 @@
+{
+  "type": "unitFactory",
+  "name": "solecian fabricator",
+  "description": "produces the solecian faction units of the first iteration.",
+  "size": 3,
+  "consumes": {
+    "power": 2.75
+  },
+  "plans": [
+    {
+      "unit": "particle",
+      "requirements": [
+        "graphite/35",
+        "pyronite/25",
+      ],
+      "time": 2100
+    },
+  ],
+  "requirements": [
+    "pyronite/50",
+    "silicon/60",
+    "graphite/45",
+  ],
+  "category": "units",
+  "research": "pyronite",
+}
