@@ -6,6 +6,7 @@ lore: its just heated up rok
 cost: 3.0
 color: ffffff
 research: solecian-gate
+shownPlanets: [erekir]
 explosiveness: 0
 flammability: 0
 radioactivity: 0
