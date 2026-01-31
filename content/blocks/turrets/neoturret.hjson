@@ -5,6 +5,7 @@
   "range": 130,
   "reload": 30,
   "shootSound": "spark",
+   buildVisibility: editorOnly
   "shootCone": 30,
   "shootType": {
     "type": "BasicBulletType",
