@@ -4,4 +4,4 @@
     category: defense
     name: solecian
     underBullets: false
-    buildVisibility: inEditor
+    buildVisibility: editorOnly
