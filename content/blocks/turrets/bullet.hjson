@@ -12,7 +12,7 @@ category: turret
 shootSound: shootAvert
 outlineColor: 42413e
 research: {
-  parent: solacean-gate
+  parent: solecian-gate
   requirements: [
     beryllium/250
     graphite/130
