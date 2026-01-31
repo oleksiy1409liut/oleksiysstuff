@@ -2,6 +2,7 @@
     health: 650
     size: 1
     category: defense
+    buildVisibility: editorOnly
     name: neoplasm vein
     underBullets: true
 requirements: [
