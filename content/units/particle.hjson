@@ -1,7 +1,7 @@
 type: legs
 name: particle
 template: ErekirUnitType
-description: weakly armored spider type mech, the first unit of the solecian faction, shoots a small beam of electricity to deal damage, due to its creator faction being in early development its bullets can hit the teams buildings
+description: weakly armored spider type mech, the first unit of the solecian faction, shoots a small beam of electricity to deal damage.
 speed: 0.7
 health: 525
 armor: 2
@@ -33,19 +33,19 @@ weapons: [
     shoot: {
       firstShotDelay: 60
       shotDelay: 12
-      shots: 2
+      shots: 1
     }
     chargeSound: short-laser-charge
     bullet: {
       type: LaserBulletType
       colors: [ff795e, ff795e, ff795e]
       width: 2
-      length: 108
-      damage: 24
+      length: 100
+      damage: 29
       collidesTeam: true
       pierce: true
-      pierceBuilding: false
-      pierceCap: 1
+      pierceBuilding: true
+      pierceCap: 2
       chargeEffect: lightningCharge
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
@@ -54,8 +54,8 @@ weapons: [
   }
 ]
 research: {
-  parent: solecian-gate
+  parent: solecian-fabricator
   objectives: [
-    solecian-gate
+    solecian-fabricator
   ]
 }
