@@ -52,8 +52,8 @@ weapons: [
   }
 ]
 research: {
-  parent: pyronite
+  parent: solecian-gate
   objectives: [
-    pyronite
+    solecian-gate
   ]
 }
