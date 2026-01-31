@@ -1,0 +1,7 @@
+    type: Wall
+    description: the main gate of the solecian faction
+    size: 1
+    category: defense
+    name: solecian
+    underBullets: false
+    buildVisibility: inEditor
