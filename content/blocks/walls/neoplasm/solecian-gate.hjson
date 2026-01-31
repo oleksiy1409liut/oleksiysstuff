@@ -5,3 +5,9 @@
     name: solecian
     underBullets: false
     buildVisibility: editorOnly
+    research: {
+  planet: erekir
+  root: true
+  name: solecia
+  requiresUnlock: false
+}
