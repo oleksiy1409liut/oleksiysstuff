@@ -1,5 +1,6 @@
 type: legs
 name: particle
+template: ErekirUnitType
 description: weakly armored spider type mech, the first unit of the solecian faction, shoots a small beam of electricity to deal damage, due to its creator faction being in early development its bullets can hit the teams buildings
 speed: 0.7
 health: 525
