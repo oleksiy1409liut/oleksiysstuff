@@ -12,7 +12,7 @@ category: turret
 shootSound: shootAvert
 outlineColor: 42413e
 research: {
-  parent: breach
+  parent: pyronite
   requirements: [
     beryllium/250
     graphite/130
