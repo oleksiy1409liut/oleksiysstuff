@@ -20,7 +20,7 @@ pyronite/1
 ]
 
 consumes: {
-power: 3.34
+power: 3.3
 items: [
 sand/2
 silicon/1
