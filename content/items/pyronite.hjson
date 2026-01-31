@@ -5,7 +5,7 @@ description: a heated version of silicon, sturdy and flexible, used in solecian 
 lore: its just heated up rok
 cost: 3.0
 color: ffffff
-research: solecian-gate
+research: silicon-stove
 shownPlanets: [erekir]
 explosiveness: 0
 flammability: 0
