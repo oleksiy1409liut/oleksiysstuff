@@ -1,5 +1,6 @@
 {
   "type": "tank",
+   template: ErekirUnitType
   "name": "[red]nuclei",
   "description": "the first tier of the neoplasmian tanks, instead of energy it uses neoplasm to work, shoots railgun-like shells with a lot of speed and damage, the neoplasm allows it to be smarter and faster due to its density, tungsten plating allows for more armor than normal tanks",
   "health": 2600,
