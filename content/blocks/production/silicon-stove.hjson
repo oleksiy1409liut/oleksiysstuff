@@ -1,0 +1,34 @@
+{
+name: silicon stove
+description: uses power to heat up silicon and coat it with sand to for pyronite, has a heat byproduct.
+type: GenericCrafter
+health: 560
+size: 2
+heatOutput: 2
+rotate: false
+category: crafting
+research: "solecian-gate"
+researchCost: [
+    silicon/450
+    beryllium/750
+    graphite/650
+  ]
+craftTime: 160
+craftEffect: reactorsmoke
+outputItems: [
+pyronite/1
+]
+
+consumes: {
+power: 3.34
+items: [
+sand/2
+silicon/1
+]
+}  
+requirements: [
+  silicon/45
+    beryllium/75
+    graphite/65
+]
+}
