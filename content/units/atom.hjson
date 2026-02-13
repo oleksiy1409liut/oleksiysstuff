@@ -71,6 +71,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 20
+      lifetime: 60
+      speed: 2.5
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
       hitEffect: sparkShoot
