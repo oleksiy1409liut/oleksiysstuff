@@ -55,8 +55,8 @@ weapons: [
   }
 {
   name: solecian-cannon
-  x: 0
-    y: 5
+  x: 5
+    y: 0
     reload: 30
     mirror: true
     rotate: true
