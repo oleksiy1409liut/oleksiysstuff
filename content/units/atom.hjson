@@ -41,7 +41,7 @@ weapons: [
       colors: [ff795e, ff795e, ff795e]
       width: 2
       length: 100
-      damage: 45
+      damage: 60
       collidesTeam: true
       pierce: true
       pierceBuilding: true
@@ -57,7 +57,7 @@ weapons: [
   name: particle-weapon
   x: 5
     y: 0
-    reload: 30
+    reload: 15
     mirror: true
     rotate: true
     shootSound: shoot
