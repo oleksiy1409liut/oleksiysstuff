@@ -1,0 +1,89 @@
+type: legs
+name: atom
+template: ErekirUnitType
+description: the second solecian mech unit, equipped with a small laser cannon and 2 small guns, moderately armored
+speed: 0.56
+health: 1200
+armor: 4
+flying: false
+legExtension: -2
+shownPlanets: [erekir]
+legMoveSpace: 0.9
+hovering: false
+isEnemy: false
+legCount: 6
+legLength: 7
+outlineRadius: 1
+legSpeed: 0.23
+legForwardScl: 0.56
+itemCapacity: 20
+outlineColor: 44413c
+hitSize: 6
+researchCostMultiplier: 1
+weapons: [
+{
+  name: solecian-beamer
+  x: 0
+    y: -1
+    reload: 80
+    mirror: false
+    rotate: true
+    shootSound: laser
+    inaccuracy: 0
+    shoot: {
+      firstShotDelay: 60
+      shotDelay: 12
+      shots: 1
+    }
+    chargeSound: chargeLancer
+    bullet: {
+      type: LaserBulletType
+      colors: [ff795e, ff795e, ff795e]
+      width: 2
+      length: 100
+      damage: 45
+      collidesTeam: true
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      chargeEffect: lightningCharge
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitEffect: sparkShoot
+      hitColor: ff795e
+    }
+  }
+{
+  name: solecian-cannon
+  x: 0
+    y: 5
+    reload: 30
+    mirror: true
+    rotate: true
+    shootSound: shoot
+    inaccuracy: 0
+    shoot: {
+      firstShotDelay: 60
+      shotDelay: 12
+      shots: 1
+    }
+    chargeSound: chargeLancer
+    bullet: {
+      type: LaserBulletType
+      colors: [ff795e, ff795e, ff795e]
+      width: 2
+      length: 100
+      damage: 20
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitEffect: sparkShoot
+      hitColor: ff795e
+    }
+  }
+]
+research: {
+  parent: particle
+  objectives: [
+    particle
+  ]
+}
