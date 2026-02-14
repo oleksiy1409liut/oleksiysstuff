@@ -22,7 +22,7 @@ hitSize: 6
 researchCostMultiplier: 1
 weapons: [
 {
-  name: particle-weapon
+  name: solecian-beamer
   x: 0
     y: -1
     reload: 60
@@ -54,7 +54,7 @@ weapons: [
     }
   }
 {
-  name: particle-weapon
+  name: solecian-cannon
   x: 5
     y: 0
     reload: 15
