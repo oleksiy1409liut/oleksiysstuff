@@ -13,7 +13,7 @@ hovering: false
 isEnemy: false
 legCount: 6
 legLength: 7
-outlineRadius: 1
+outlineRadius: 2
 legSpeed: 0.23
 legForwardScl: 0.56
 itemCapacity: 20
@@ -31,8 +31,8 @@ weapons: [
     shootSound: laser
     inaccuracy: 0
     shoot: {
-      firstShotDelay: 60
-      shotDelay: 12
+      firstShotDelay: 0
+      shotDelay: 15
       shots: 1
     }
     chargeSound: chargeLancer
@@ -63,8 +63,8 @@ weapons: [
     shootSound: shoot
     inaccuracy: 0
     shoot: {
-      firstShotDelay: 60
-      shotDelay: 12
+      firstShotDelay: 0
+      shotDelay: 10
       shots: 1
     }
     chargeSound: chargeLancer
