@@ -23,12 +23,6 @@ research: {
    pyronite/600
    silicon/500
     ]
-    objectives: [
-    {
-      type: OnSector
-      preset: red-outpost
-    }
-  ]
 }
 requirements: [
    tungsten/80
