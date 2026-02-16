@@ -42,6 +42,7 @@ weapons: [
       width: 2
       length: 100
       damage: 75
+      status: mild-pyronite-burn
       collidesTeam: true
       pierce: true
       pierceBuilding: true
