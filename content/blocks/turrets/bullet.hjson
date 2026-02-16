@@ -44,6 +44,7 @@ ammoTypes: {
     width: 7
     height: 9
     damage: 43
+    status: mild-pyronite-burn
     speed: 5
     lifetime: 60
     collidesGround: true
