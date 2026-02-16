@@ -1,0 +1,6 @@
+damageMultiplier: 0.75
+reloadMultiplier:  0.8
+intervalDamage: 2
+intervalDamageTime: 10
+healthMultiplier: 0.75
+name: pyronite burn
