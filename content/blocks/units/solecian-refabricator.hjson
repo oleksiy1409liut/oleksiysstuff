@@ -1,0 +1,38 @@
+type: Reconstructor
+name: "solecian refabricator"
+size: 3
+health: 1200
+description: "refabricates solecian units to the second tier"
+constructTime: 1800
+upgrades: [
+  [particle, atom]
+]
+consumes: {
+power: 3
+  items: [
+  tungsten/20
+  pyronite/40
+  beryllium/40
+  ]
+}
+}
+category: units
+research: {
+  parent: solecian-fabricator
+    requirements: [
+   tungsten/800
+   pyronite/600
+   silicon/500
+    ]
+    objectives: [
+    {
+      type: OnSector
+      preset: red-outpost
+    }
+  ]
+}
+requirements: [
+   tungsten/80
+   pyronite/60
+   silicon/50
+]
