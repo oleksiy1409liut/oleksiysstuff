@@ -1,0 +1,6 @@
+damageMultiplier: 0.9
+reloadMultiplier:  0.9
+intervalDamage: 0.2
+intervalDamageTime: 1
+healthMultiplier: 0.9
+name: mild pyronite burn
