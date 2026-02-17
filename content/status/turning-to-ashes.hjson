@@ -1,0 +1,8 @@
+damageMultiplier: 0.1
+reloadMultiplier:  0.1
+intervalDamage: 20
+intervalDamageTime: 1
+healthMultiplier: 0.2
+name: turning to ashes
+speedMultiplier: 0.25
+description: Y O U C A N T R U N A W A Y N O W
