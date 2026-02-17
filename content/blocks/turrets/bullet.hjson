@@ -54,3 +54,7 @@ ammoTypes: {
     splashDamageRadius: 36
   }
 }
+drawer: {
+  type: DrawTurret
+  basePrefix: solecian-
+}
