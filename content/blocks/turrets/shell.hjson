@@ -1,0 +1,49 @@
+type: ItemTurret
+name: cascade
+description: a shotgun type turret that shoots several piercing bullets at enemies with fast firerate, has a smaller range than the bullet turret
+size: 3
+reload: 30
+shoot: {
+  shots: 7
+  shotDelay: 1
+}
+range: 120
+category: turret
+shootSound: shootLancer
+outlineColor: 42413e
+research: {
+  parent: bullet
+  requirements: [
+    beryllium/600
+    graphite/300
+    pyronite/120
+  ]
+}
+requirements: [
+  beryllium/90
+  graphite/60
+  pyronite/50
+]
+inaccuracy: 10
+targetGround: true
+targetAir: true
+ammoTypes: {
+  pyronite: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    damage: 15
+    status: mild-pyronite-burn
+    speed: 5
+    lifetime: 60
+    collidesGround: true
+    collidesAir: true
+    ammoMultiplier: 2
+    splashDamage: 10
+    splashDamageRadius: 30
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: solecian-
+}
