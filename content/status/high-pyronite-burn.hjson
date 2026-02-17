@@ -1,6 +1,6 @@
 damageMultiplier: 0.5
 reloadMultiplier:  0.65
-intervalDamage: 5
-intervalDamageTime: 10
+intervalDamage: 2
+intervalDamageTime: 1
 healthMultiplier: 0.5
 name: high pyronite burn
