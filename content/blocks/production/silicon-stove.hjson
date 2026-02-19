@@ -5,7 +5,7 @@ type: GenericCrafter
 health: 560
 size: 2
 heatOutput: 2
-rotate: false
+rotate: true
 category: crafting
 research: "solecian-gate"
 researchCost: [
@@ -13,7 +13,7 @@ researchCost: [
     beryllium/750
     graphite/650
   ]
-craftTime: 160
+craftTime: 100
 craftEffect: reactorsmoke
 outputItems: [
 pyronite/1
