@@ -1,0 +1,7 @@
+damageMultiplier: 1
+reloadMultiplier:  0.95
+speedMultiplier: 0.85
+intervalDamage: 2
+intervalDamageTime: 60
+healthMultiplier: 0.85
+name: pierced
