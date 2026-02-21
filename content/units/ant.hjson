@@ -1,0 +1,52 @@
+{
+  "type": "tank",
+  "template": "ErekirUnitType",
+  "name": "ant",
+  "description": "first tank unit of the solecian faction, armed with a small piercing class gun, has a moderate amount of health and armor, its shells pierce targets.",
+  "health": 720,
+  "armor": 2,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "physics": true,
+  "omniMovement": false,
+  "rotateSpeed": 5,
+  "faceTarget": false,
+  "flying": false,
+  "range": 75,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "small-gunner",
+      "y": 0,
+      "reload": 60,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 1
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        status: pierced
+        statusDuration: 600
+        "speed": 3,
+        "lifetime": 60,
+        "damage": 29,
+        "pierce": true,
+        "buildingDamageMultiplier": 1
+      }
+    }
+  ],
+  "research": "solecian-fabricator"
+}
