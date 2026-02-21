@@ -16,6 +16,14 @@
       ],
       "time": 2100
     },
+    {
+      "unit": "ant",
+      "requirements": [
+        "beryllium/45",
+        "pyronite/30",
+      ],
+      "time": 2400
+    },
   ],
   "requirements": [
     "pyronite/50",
