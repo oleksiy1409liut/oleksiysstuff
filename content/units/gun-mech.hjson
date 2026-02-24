@@ -1,0 +1,49 @@
+type: mech
+name: "basic mech"
+description: "fires small bullets, can only attack ground (unit from rusted warfare, all credit for sprites and idea goes to them)."
+commandLimit: 5
+health: 125
+speed: 0.9
+flying: false
+drag: 0.3
+accel: 0.3
+range: 130
+hitSize: 8
+mechFrontSway: 0.24
+mechSideSway: 0.46
+itemCapacity: 20
+targetGround: true
+targetAir: false
+armor: 0
+rotateSpeed: 3.7
+weapons: [
+  {
+    name: merui-weapon
+    reload: 60
+    x: 5
+    y: 5
+    shootY: 2
+    shootCone: 30
+    inaccuracy: 5
+    shootSound: pew
+    rotate: false
+    recoil: 1.5
+    top: false
+    ejectEffect: casing1
+    bullet: {
+        type: BasicBulletType
+        damage: 14
+        backColor: 8ca9e8ff
+        frontColor: 8ca9e8ff
+        speed: 3.2
+        lifetime: 60
+        width: 8.5
+        height: 11.5
+        collidesGround: true
+        collidesAir: false
+    }
+}
+]
+research: {
+    parent: dagger
+}
