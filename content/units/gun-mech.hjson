@@ -15,6 +15,7 @@ itemCapacity: 20
 targetGround: true
 targetAir: false
 armor: 0
+outlineRadius: 1
 rotateSpeed: 3.7
 weapons: [
   {
