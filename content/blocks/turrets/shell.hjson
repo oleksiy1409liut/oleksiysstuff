@@ -1,12 +1,12 @@
 type: ItemTurret
 name: shell
-health: 1300
+health: 1400
 armor: 5
 description: a shotgun type turret that shoots several piercing bullets at enemies with fast firerate, has a smaller range than the bullet turret
 size: 3
 reload: 30
 shoot: {
-  shots: 35
+  shots: 37
   shotDelay: 0
 }
 range: 120
@@ -26,7 +26,7 @@ requirements: [
   graphite/60
   pyronite/50
 ]
-inaccuracy: 35
+inaccuracy: 20
 targetGround: true
 targetAir: true
 ammoTypes: {
