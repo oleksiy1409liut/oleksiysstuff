@@ -1,9 +1,10 @@
-type: itemTurret
+type: ItemTurret
 name: WDB
 description: secret superweapon called "When Day Breaks", shoots superhot cubes of fuel onto eenemies to burn them into ashes.
 size: 3
 reload: 2
 range: 300
+health: 1900
 recoil: 5
 category: turret
 shootSound: flame
