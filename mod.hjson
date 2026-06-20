@@ -6,7 +6,7 @@ needs hjson++ for more functionality
 '''
 author: "oleskiy"
 minGameVersion: 154
-version: "0.14"
+version: "0.15"
 displayName: "oleksiy's stuff"
-subtitle: "roc"
-dependencies: ["hjsonpp",]
+subtitle: "im pink and in a valley"
+dependencies: []
