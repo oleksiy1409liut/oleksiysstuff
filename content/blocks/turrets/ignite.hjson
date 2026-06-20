@@ -4,8 +4,8 @@
   "size": 2,
   "health": 760,
   "reload": 50,
-  "range": 100,
-  "name": ignite,
+  "range": 120,
+  "name": Ignite,
   "description": fires fuse-like shells of blast compound or titanium at enemies to deal short-range big damage,
   "maxAmmo": 15,
   "inaccuracy": 5,
@@ -17,18 +17,18 @@
   "recoilAmount": 3,
   "restitution": 0.5,
   "rotateSpeed": 4,
-  "shootSound": "shotgun",
-  "ammoPerShot": 2,
+  "shootSound": "shootFuse",
+  "ammoPerShot": 1,
   "ammoTypes": {
     "titanium": {
       "type": "shrapnelBulletType",
       "lifetime": 19,
-      "damage": 55,
+      "damage": 64,
       "serrations": 1,
       "fromColor": "919FE7",
       "toColor": "A4B8FA",
-      "length": 105,
-      "width": 30,
+      "length": 120,
+      "width": 35,
       "hitEffect": "blastExplosion",
       "shootEffect": "blastExplosion",
       "pierce": true,
@@ -37,12 +37,12 @@
      "blast-compound": {
       "type": "shrapnelBulletType",
       "lifetime": 21,
-      "damage": 80,
+      "damage": 89,
       "serrations": 1,
       "fromColor": "FF795E",
       "toColor": "E05438",
-      "length": 100,
-      "width": 25,
+      "length": 110,
+      "width": 30,
       "hitEffect": "blastExplosion",
       "shootEffect": "blastExplosion",
       "pierce": true,
@@ -52,23 +52,23 @@
   "requirements": [
     {
       "item": "copper",
-      "amount": 75
+      "amount": 100
     },
     {
       "item": "lead",
-      "amount": 45
+      "amount": 60
     }
     {
       "item": "graphite",
-      "amount": 30
+      "amount": 50
     }
     {
       "item": "silicon",
-      "amount": 20
+      "amount": 35
     }
     {
       "item": "titanium",
-      "amount": 15
+      "amount": 40
     }
   ],
   "category": "turret",
