@@ -33,7 +33,7 @@ weapons: [
     shoot: {
       firstShotDelay: 5
       shotDelay: 0
-      shots: 2
+      shots: 1
     }
     chargeSound: chargeLancer
     bullet: {
