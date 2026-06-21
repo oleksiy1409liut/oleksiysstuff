@@ -3,16 +3,16 @@ name: molecule
 template: ErekirUnitType
 description: third tier of the solecian mech line, fires pyronite missiles from a front-cannon and shoots small bullets at at air targets, also used as big forks.
 speed: 0.7
-health: 525
-armor: 2
+health: 4200
+armor: 9
 flying: false
-legExtension: -2
+legExtension: -1
 shownPlanets: [erekir]
 legMoveSpace: 0.9
 hovering: false
 isEnemy: false
 legCount: 4
-legLength: 7
+legLength: 26
 outlineRadius: 1
 legSpeed: 0.23
 legForwardScl: 0.56
