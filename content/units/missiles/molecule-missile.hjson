@@ -16,12 +16,12 @@
   "createScorch": false,
   "flying": true,
   "hidden": true,
-  "health": 140,
+  "health": 35,
   "hitSize": 7,
   "engineLayer": 110,
   "outlineColor": "272930FF",
-  "engineColor": "A9D8FFFF",
-  "trailColor": "A9D8FFFF",
+  "engineColor": "FF795E",
+  "trailColor": "FF795E",
   "missileAccelTime": 60,
   "engineOffset": 6,
   "engineSize": 2.3,
@@ -47,8 +47,8 @@
               "sizeTo": 30,
               "strokeFrom": 7.5,
               "strokeTo": 0,
-              "colorFrom": "A9D8FFFF",
-              "colorTo": "66B1FFFF"
+              "colorFrom": "FF795E",
+              "colorTo": "FF795E"
             },
             {
               "type": "ParticleEffect",
@@ -64,9 +64,9 @@
               "strokeTo": 1.5,
               "lenFrom": 5,
               "lenTo": 5,
-              "lightColor": "A9D8FFFF",
-              "colorFrom": "E1F2FFFF",
-              "colorTo": "A9D8FFFF"
+              "lightColor": "FF795E",
+              "colorFrom": "FF795E",
+              "colorTo": "FF795E"
             },
             {
               "type": "ParticleEffect",
@@ -82,9 +82,9 @@
               "strokeTo": 1.5,
               "lenFrom": 7,
               "lenTo": 7,
-              "lightColor": "A9D8FFFF",
-              "colorFrom": "E1F2FFFF",
-              "colorTo": "A9D8FFFF"
+              "lightColor": "FF795E",
+              "colorFrom": "FF795E",
+              "colorTo": "FF795E"
             }
           ]
         },
@@ -93,8 +93,8 @@
         "width": 0,
         "height": 0,
         "keepVelocity": false,
-        "splashDamageRadius": 60,
-        "splashDamage": 110
+        "splashDamageRadius": 65,
+        "splashDamage": 115
       }
     }
   ],
@@ -103,19 +103,19 @@
       "type": "MoveEffectAbility",
       "effect": {
         "type": "ParticleEffect",
-        "particles": 4,
-        "sizeFrom": 4,
+        "particles": 2,
+        "sizeFrom": 2,
         "sizeTo": 1,
         "length": 30,
-        "lifetime": 30,
+        "lifetime": 15,
         "lightOpacity": 0,
         "interp": "circleOut",
         "sizeInterp": "pow5In",
-        "colorFrom": "66B1FFAa",
-        "colorTo": "78787870",
+        "colorFrom": "FF795E",
+        "colorTo": "FF795E",
         "cone": 9
       },
-      "interval": 2,
+      "interval": 6,
       "y": -6,
       "rotateEffect": true,
       "rotation": 180
