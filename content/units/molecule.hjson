@@ -43,7 +43,9 @@ weapons: [
       length: 1
       damage: 1
       collidesTeam: true
-      summonUnit: molecule-missile
+      status: mild-pyronite-burn
+      instantDisappear: true
+      spawnUnit: molecule-missile
       pierce: true
       pierceBuilding: true
       pierceCap: 1
