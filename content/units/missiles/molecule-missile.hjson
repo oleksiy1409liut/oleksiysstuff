@@ -2,10 +2,10 @@
   "type": "missile",
   "controller": "MissileAI",
   "lowAltitude": true,
-  "speed": 9.6,
-  "rotateSpeed": 2.5,
-  "lifetime": 90,
-  "homingDelay": 45,
+  "speed": 5.1,
+  "rotateSpeed": 3.5,
+  "lifetime": 70,
+  "homingDelay": 10,
   "isEnemy": false,
   "allowedInPayloads": false,
   "playerControllable": false,
@@ -94,7 +94,7 @@
         "height": 0,
         "keepVelocity": false,
         "splashDamageRadius": 65,
-        "splashDamage": 115
+        "splashDamage": 210
       }
     }
   ],
