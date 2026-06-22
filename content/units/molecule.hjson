@@ -54,39 +54,40 @@ weapons: [
     }
   }
 {
-  name: molecule-gun
-  x: 5
-    y: 0
-    reload: 15
-    mirror: false
-    rotate: true
-    shootSound: shootDuo
-    inaccuracy: 5
-    shoot: {
-      firstShotDelay: 0
-      shotDelay: 7
-      shots: 1
-    }
-    bullet: {
-      type: BasicBulletType
-      damage: 25
-      lifetime: 90
-      speed: 3
-      status: pyronite-burn
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
-      hitEffect: sparkShoot
-      hitColor: FF795E
-      trailLength: 7
-      trailWidth: 1.75
-      width: 5
-      height: 10
-      trailColor: FF795E
-      backColor: C85C51
-      frontColor: FF795E
-    }
-  }
-]
+#  name: molecule-gun
+#  x: 5
+#    y: 0
+#    reload: 15
+#    mirror: false
+#    rotate: true
+#    shootSound: shootDuo
+#    inaccuracy: 5
+#    shoot: {
+#      firstShotDelay: 0
+#      shotDelay: 7
+#      shots: 1
+#    }
+#    bullet: {
+#      type: BasicBulletType
+#      damage: 25
+#      lifetime: 90
+#      speed: 3
+#      status: pyronite-burn
+#      shootEffect: shootSmall
+#      smokeEffect: shootSmallSmoke
+#      hitEffect: sparkShoot
+#      hitColor: FF795E
+#      trailLength: 7
+#      trailWidth: 1.75
+#      width: 5
+#      height: 10
+#      trailColor: FF795E
+#     backColor: C85C51
+#      frontColor: FF795E
+#    }
+#  }
+# ]
+# erm it uhh fucking broke and started crashing the game help
 research: {
   parent: atom
   objectives: [
