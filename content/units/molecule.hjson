@@ -6,14 +6,14 @@ speed: 0.8
 health: 4200
 armor: 9
 flying: false
-legExtension: -1
+legExtension: -2
 shownPlanets: [erekir]
 legMoveSpace: 0.9
 hovering: false
 isEnemy: false
 legCount: 4
 legLength: 26
-outlineRadius: 2
+outlineRadius: 1
 legSpeed: 0.23
 legForwardScl: 0.56
 itemCapacity: 20
