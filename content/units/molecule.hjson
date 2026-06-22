@@ -53,7 +53,7 @@ weapons: [
       hitColor: FF795E
     }
   }
-{
+# {
 #  name: molecule-gun
 #  x: 5
 #    y: 0
@@ -86,8 +86,8 @@ weapons: [
 #      frontColor: FF795E
 #    }
 #  }
-# ]
 # erm it uhh fucking broke and started crashing the game help
+]
 research: {
   parent: atom
   objectives: [
