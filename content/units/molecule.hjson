@@ -53,6 +53,40 @@ weapons: [
       hitColor: ff795e
     }
   }
+{
+  name: molecule-gun
+  x: 5
+    y: 0
+    reload: 15
+    mirror: false
+    rotate: true
+    shootSound: shootDuo
+    inaccuracy: 5
+    shoot: {
+      firstShotDelay: 0
+      shotDelay: 7
+      shots: 1
+    }
+    bullet: {
+      type: BasicBulletType
+      damage: 25
+      lifetime: 90
+      speed: 3
+      status: pyronite-burn
+      statusDuration: 240
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitEffect: sparkShoot
+      hitColor: ff795e
+      trailLength: 7
+      trailWidth: 1.75
+      width: 5
+      height: 10
+      trailColor: ff795e
+      backColor: c85c51
+      frontColor: ff795e
+    }
+  }
 ]
 research: {
   parent: atom
