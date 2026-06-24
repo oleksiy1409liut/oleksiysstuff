@@ -25,8 +25,8 @@
       "lifetime": 19,
       "damage": 64,
       "serrations": 1,
+      "rangeMultiplier": 1.05,
       "fromColor": "919FE7",
-      "rangeMultiplier": 1.05
       "toColor": "A4B8FA",
       "length": 120,
       "width": 35,
