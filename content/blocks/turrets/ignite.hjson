@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "researchCostMultiplier": 10,
+  "researchCostMultiplier": 5,
   "size": 2,
   "health": 760,
   "reload": 50,
@@ -41,7 +41,8 @@
       "serrations": 1,
       "fromColor": "FF795E",
       "toColor": "E05438",
-      "reloadMultiplier": 0.85
+      "reloadMultiplier": 0.85,
+      "ammoMultiplier": 3,
       "length": 110,
       "width": 30,
       "hitEffect": "blastExplosion",
