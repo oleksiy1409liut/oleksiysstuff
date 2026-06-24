@@ -26,6 +26,7 @@
       "damage": 64,
       "serrations": 1,
       "fromColor": "919FE7",
+      "rangeMultiplier": 1.05
       "toColor": "A4B8FA",
       "length": 120,
       "width": 35,
@@ -37,7 +38,7 @@
      "blast-compound": {
       "type": "shrapnelBulletType",
       "lifetime": 21,
-      "damage": 89,
+      "damage": 99,
       "serrations": 1,
       "fromColor": "FF795E",
       "toColor": "E05438",
