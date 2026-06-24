@@ -41,7 +41,7 @@
       "serrations": 1,
       "fromColor": "FF795E",
       "toColor": "E05438",
-      "reloadMultiplier": -0.15
+      "reloadMultiplier": 0.85
       "length": 110,
       "width": 30,
       "hitEffect": "blastExplosion",
