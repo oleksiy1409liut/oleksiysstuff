@@ -1,79 +1,62 @@
-{
-  "type": "ItemTurret",
-  "researchCostMultiplier": 5,
-  "size": 2,
-  "health": 760,
-  "reload": 50,
-  "range": 120,
-  "name": Ignite,
-  "description": fires fuse-like shells of blast compound or titanium at enemies to deal short-range big damage,
-  "maxAmmo": 15,
-  "inaccuracy": 5,
-  "shots": 1,
-  "targetAir": true,
-  "targetGround": true,
-  "shootCone": 10,
-  "spread": 2,
-  "recoilAmount": 3,
-  "restitution": 0.5,
-  "rotateSpeed": 4,
-  "shootSound": "shootFuse",
-  "ammoPerShot": 1,
-  "ammoTypes": {
-    "titanium": {
-      "type": "shrapnelBulletType",
-      "lifetime": 19,
-      "damage": 64,
-      "serrations": 1,
-      "rangeMultiplier": 1.05,
-      "fromColor": "919FE7",
-      "toColor": "A4B8FA",
-      "length": 120,
-      "width": 35,
-      "hitEffect": "blastExplosion",
-      "shootEffect": "blastExplosion",
-      "pierce": true,
-      "smokeEffect": "hitBulletBig"
-    }
-     "blast-compound": {
-      "type": "shrapnelBulletType",
-      "lifetime": 21,
-      "damage": 99,
-      "serrations": 1,
-      "fromColor": "FF795E",
-      "toColor": "E05438",
-      "reloadMultiplier": 0.85,
-      "ammoMultiplier": 3,
-      "length": 110,
-      "width": 30,
-      "hitEffect": "blastExplosion",
-      "shootEffect": "blastExplosion",
-      "pierce": true,
-      "smokeEffect": "hitBulletBig"
-    }
-  },
-  "requirements": [
-    {
-      "item": "copper",
-      "amount": 100
-    },
-    {
-      "item": "lead",
-      "amount": 60
-    }
-    {
-      "item": "graphite",
-      "amount": 50
-    }
-    {
-      "item": "silicon",
-      "amount": 35
-    }
-    {
-      "item": "titanium",
-      "amount": 40
-    }
-  ],
-  "category": "turret",
-  "research": "salvo"
+type: ItemTurret
+researchCostMultiplier: 5
+size: 2
+health: 760
+reload: 50
+range: 120
+name: Ignite
+description: fires fuse-like shells of blast compound or titanium at enemies to deal short-range big damage
+maxAmmo: 15
+inaccuracy: 5
+shots: 1
+targetAir: true
+targetGround: true
+shootCone: 10
+spread: 2
+recoilAmount: 3
+restitution: 0.5
+rotateSpeed: 4
+shootSound: shootFuse
+ammoPerShot: 1
+ammoTypes: {
+  titanium: {
+    type: shrapnelBulletType
+    lifetime: 19
+    damage: 64
+    serrations: 1
+    rangeMultiplier: 1.05
+    fromColor: 919FE7
+    toColor: A4B8FA
+    length: 120
+    width: 35
+    hitEffect: blastExplosion
+    shootEffect: blastExplosion
+    pierce: true
+    smokeEffect: hitBulletBig
+  }
+  blast-compound: {
+    type: shrapnelBulletType
+    lifetime: 21
+    damage: 99
+    serrations: 1
+    fromColor: FF795E
+    toColor: E05438
+    reloadMultiplier: 0.85
+    ammoMultiplier: 3
+    length: 110
+    width: 30
+    hitEffect: blastExplosion
+    shootEffect: blastExplosion
+    pierce: true
+    smokeEffect: hitBulletBig
+  }
 }
+requirements: [
+  copper/100
+  lead/60
+  graphite/50
+  silicon/35
+  titanium/40
+]
+category: turret
+research: salvo
