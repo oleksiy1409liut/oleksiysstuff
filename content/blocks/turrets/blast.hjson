@@ -1,78 +1,76 @@
-{
-"type": "ItemTurret",
-  "researchCostMultiplier": 0.1,
-  "squareSprite": false,
-  "outlineColor": "36363CFF",
-  "name": blast
-  "description": Fires plastanium shells at ground enemy targets to deal AOE damage, can't be cooled down.
-  "size": 2,
-  "health": 980,
-  "reload": 60,
-  "range": 120,
-  "maxAmmo": 15,
-  "recoil": 0.7,
-  "rotateSpeed": 3,
-  "shootSound": "bang",
-  "ammoTypes": {
-    "plastanium": {
-      "type": "BasicBulletType",
-      "absorbable": true,
-      "shrinkY": 0,
-      "shrinkX": 0,
-      "speed": 2,
-      "lifetime": 75,
-      "damage": 65,
-      "trailColor": "CBD97FFF",
-      "trailParam": 2,
-      "trailLength": 8,
-      "trailWidth": 2,
-      "trailEffect": "none",
-      "shootEffect": {
-        "type": "multiEffect",
-        "effects": [
-          {
-            "type": "ParticleEffect",
-            "particles": 20,
-            "length": 40,
-            "lifetime": 36,
-            "interp": "circleOut",
-            "sizeInterp": "pow5Out",
-            "cone": 360,
-            "colorFrom": "CBD97FFF",
-            "colorTo": "CBD97FFF",
-            "sizeFrom": 4.5,
-            "sizeTo": 0
-          },
-          {
-            "type": "ParticleEffect",
-            "particles": 1,
-            "sizeFrom": 10,
-            "sizeTo": 0,
-            "length": 0,
-            "lightColor": "CBD97FFF",
-            "lifetime": 30,
-            "layer": 109,
-            "region": "star",
-            "colorFrom": "CBD97FFF",
-            "colorTo": "CBD97FFF"
-          }
-        ]
-      },
-      "status": "slow",
-      "statusDuration": 150,
-      "height": 9,
-      "width": 9,
-  },
+type: ItemTurret
+researchCostMultiplier: 0.1
+squareSprite: false
+outlineColor: 36363CFF
+name: blast
+description: Fires plastanium shells at ground enemy targets to deal AOE damage, can't be cooled down.
+size: 2
+health: 980
+reload: 60
+range: 120
+maxAmmo: 15
+recoil: 0.7
+rotateSpeed: 3
+shootSound: bang
+ammoTypes: {
+  plastanium: {
+    type: BasicBulletType
+    absorbable: true
+    shrinkY: 0
+    shrinkX: 0
+    speed: 2
+    lifetime: 75
+    damage: 65
+    trailColor: CBD97FFF
+    trailParam: 2
+    trailLength: 8
+    trailWidth: 2
+    trailEffect: none
+    shootEffect: {
+      type: multiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 20
+          length: 40
+          lifetime: 36
+          interp: circleOut
+          sizeInterp: pow5Out
+          cone: 360
+          colorFrom: CBD97FFF
+          colorTo: CBD97FFF
+          sizeFrom: 4.5
+          sizeTo: 0
+        }
+        {
+          type: ParticleEffect
+          particles: 1
+          sizeFrom: 10
+          sizeTo: 0
+          length: 0
+          lightColor: CBD97FFF
+          lifetime: 30
+          layer: 109
+          region: star
+          colorFrom: CBD97FFF
+          colorTo: CBD97FFF
+        }
+      ]
+    }
+    status: slow
+    statusDuration: 150
+    height: 9
+    width: 9
+  }
 }
-  "requirements": [
-    "lead/75",
-    "copper/100",
-    "titanium/55",
-    "plastanium/45",
-    "graphite/65",
-  ],
-  "envRequired": 0,
-  "enDisabled": 4,
-  "category": "turret",
-  "research": "swarmer"
-}
+requirements: [
+  lead/75
+  copper/100
+  titanium/55
+  plastanium/45
+  graphite/65
+]
+envRequired: 0
+enDisabled: 4
+category: turret
+research: swarmer
