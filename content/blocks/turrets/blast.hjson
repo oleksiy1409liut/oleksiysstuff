@@ -1,4 +1,5 @@
-  "type": "ItemTurret",
+{
+"type": "ItemTurret",
   "researchCostMultiplier": 0.1,
   "squareSprite": false,
   "outlineColor": "36363CFF",
@@ -61,8 +62,8 @@
       "statusDuration": 150,
       "height": 9,
       "width": 9,
-  }
-
+  },
+}
   "requirements": [
     "lead/75",
     "copper/100",
@@ -74,3 +75,4 @@
   "enDisabled": 4,
   "category": "turret",
   "research": "swarmer"
+}
