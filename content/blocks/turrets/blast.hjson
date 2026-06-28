@@ -14,7 +14,7 @@ rotateSpeed: 3
 shootSound: bang
 ammoTypes: {
   plastanium: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     absorbable: true
     shrinkY: 0
     shrinkX: 0
