@@ -1,0 +1,28 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "waste recycler",
+    rotate: true,
+    rotateDraw: false,
+    liquidOutputDirections: [1,2,3,4],
+
+      "consumes": {
+         "items": [
+         waste/5,
+    ],
+  },
+
+    outputLiquids: [oil/0.25,slag/0.1,],
+    "outputItem": "lead/2"
+
+    size: 3,
+    health: 900,
+
+    requirements: [
+        "lead/250",
+        "graphite/100",
+        "copper/100",
+        "titanium/50",
+        "silicon/50",
+    ],
+}
