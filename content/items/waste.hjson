@@ -1,0 +1,11 @@
+{
+name: waste
+description: found commonly near polluted parts of serpulo and in small waste islands in the sea, a remnant of wars and old inhabitants of serpulo.
+cost: 1.0
+flammability: 0.3
+radioactivity: 0.05
+reactivity: 0.05
+hardness: 0.5
+explosiveness: 0
+research: titanium
+}
