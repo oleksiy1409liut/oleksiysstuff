@@ -1,0 +1,5 @@
+type: OreBlock
+name: waste ore
+itemDrop: waste
+cost: 1
+variants: 1
