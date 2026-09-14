@@ -1,0 +1,42 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Water Separator",
+    description: "Separates water into hydrogen, vents out oxygen.",
+    liquidCapacity: 300
+
+      "consumes": {
+      liquids: [
+        water: 0.4
+        ]
+      power: 1.25
+      },
+      craftTime: 120
+
+    outputLiquids: [
+      hydrogen/0.5
+    ]
+
+    size: 2,
+    health: 600,
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+    requirements: [
+        "copper/30",
+        "lead/25",
+        "metaglass/15",
+        "silicon/15"
+    ],
+}
