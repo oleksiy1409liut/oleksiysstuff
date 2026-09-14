@@ -1,0 +1,48 @@
+name: Oil Generator
+description: Produces energy from burning oil.
+type: ConsumeGenerator
+health: 250
+size: 2
+hasPower: true
+hasLiquids: true
+liquidCapacity: 600
+powerProduction: 5
+itemDuration: 60
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oil
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 7.5
+    }
+]
+}
+
+consumes: {
+liquids: [
+  oil/0.25
+]
+}
+category: power
+research: differential-generator
+requirements: [
+copper/50
+lead/35
+graphite/25
+silicon/35
+titanium/15
+]
