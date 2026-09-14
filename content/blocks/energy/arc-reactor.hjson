@@ -1,5 +1,5 @@
 name: Arc Reactor
-description: Produces massive amount of energy from hydrogen fusion, outputs slag as byproduct.
+description: Produces massive amount of energy from hydrogen fusion.
 type: ConsumeGenerator
 health: 5500
 size: 3
@@ -8,7 +8,7 @@ hasLiquids: true
 liquidCapacity: 1000
 powerProduction: 35
 itemDuration: 120
-liquidOutput: slag/0.1
+outputLiquid: slag/0.1
 
 consumes: {
 liquids: [
