@@ -1,0 +1,26 @@
+name: Arc Reactor
+description: Produces massive amount of energy from hydrogen fusion, outputs slag as byproduct.
+type: ConsumeGenerator
+health: 5500
+size: 3
+hasPower: true
+hasLiquids: true
+liquidCapacity: 1000
+powerProduction: 35
+itemDuration: 120
+liquidOutput: slag/0.1
+
+consumes: {
+liquids: [
+  hydrogen/1
+]
+}
+category: power
+research: thorium-reactor
+requirements: [
+titanium/550
+thorium/400
+silicon/450
+plastanium/275
+surge-alloy/175
+]
