@@ -12,7 +12,7 @@ outputLiquid: slag/0.1
 
 consumes: {
 liquids: [
-  hydrogen/1
+  hydrogen/1.5
 ]
 }
 category: power
