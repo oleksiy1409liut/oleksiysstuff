@@ -1,0 +1,45 @@
+{
+    type: "Separator",
+    category: "crafting",
+    name: "Atomic Recombiner",
+    description: "Recombines plasma and nuclei streams to form different materials.",
+    liquidCapacity: 700
+    itemCapacity/50
+
+      "consumes": {
+      liquids: [
+      plasma/1.5
+      nuclei-stream/0.05125
+        ]
+      power: 2
+      },
+      craftTime: 5
+
+    outputLiquids: [
+      hydrogen/0.1
+    ]
+    results: [
+      copper/25
+      lead/20
+      coal/10
+      silicon/10
+      titanium/5
+      thorium/5
+      sand/10
+      plastanium/5
+      phase-fabric/5
+      surge-alloy/5
+    ]
+
+    size: 3,
+    health: 2300,
+
+    requirements: [
+        "graphite/200",
+        "lead/250",
+        "metaglass/75",
+        "silicon/200",
+        "titanium/100",
+        "thorium/75"
+    ],
+}
