@@ -8,7 +8,7 @@
 
     consumes: {
       liquids: [
-       plasma/1.5
+       plasma/0.4
        nuclei-stream/0.05125
         ]
       power: 2
