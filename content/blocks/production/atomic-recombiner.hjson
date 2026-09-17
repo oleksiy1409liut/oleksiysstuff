@@ -6,10 +6,10 @@
     liquidCapacity: 700
     itemCapacity: 50
 
-       consumes: {
+    consumes: {
       liquids: [
-      plasma/1.5
-      nuclei-stream/0.05125
+       plasma/1.5
+       nuclei-stream/0.05125
         ]
       power: 2
       },
