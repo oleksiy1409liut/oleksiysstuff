@@ -1,0 +1,15 @@
+name: Plasma Stream
+description: hot
+heatCapacity: 0.5
+viscosity: 0.0
+explosiveness: 0.3
+temperature: 0.75
+coolant: false
+gas: true
+color: a4b8fa
+flammability: 0.0
+gasColor: a4b8fa
+barColor: 919fe7
+incinerable: false
+lightColor: a4b8fa
+research: atomic-splitter
