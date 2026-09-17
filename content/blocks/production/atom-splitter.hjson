@@ -17,7 +17,7 @@
   },
 
     outputLiquids: [plasma/1.2,nuclei-stream/0.4],
-    "outputItem": "power/1"
+    "outputItem": "waste/1"
 
     size: 5,
     health: 6700,
