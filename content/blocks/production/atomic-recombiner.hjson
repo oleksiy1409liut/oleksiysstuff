@@ -4,7 +4,7 @@
     name: "Atomic Recombiner",
     description: "Recombines plasma and nuclei streams to form different materials.",
     liquidCapacity: 700
-    itemCapacity/50
+    itemCapacity: 50
 
        consumes: {
       liquids: [
