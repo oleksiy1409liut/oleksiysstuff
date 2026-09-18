@@ -1,0 +1,56 @@
+type: LiquidTurret
+name: "Solaris"
+description: "Fires blobs of superheated plasma into enemy targets."
+health: 5600
+size: 3
+reload: 10
+shootSound: sap
+range: 320
+innacuracy: 5
+recoilAmount: 1
+restitution: 0.05
+chargeTime: 0
+hasPower: true
+consumes: [
+  power: 6
+]
+shots: 1
+rotateSpeed: 7
+ammoTypes: {
+           plasma: {
+           type: BasicBulletType
+           pierce: true
+           pierceCap: 4
+           damage: 100
+           splashDamage: 25
+           splashDamageRadius: 32
+           width: 16
+           height: 8
+           lifetime: 120
+           weaveScale: 10
+           weaveMag: 3
+           homingPower: 0.2
+           homingRange: 180
+           speed: 4.5
+           despawnEffect: blastExplosion
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           hitShake: 1
+           shrinkY: 0
+           hitSound: explosion
+           }
+}
+
+requirements:[
+  graphite/150
+  titanium/175
+  silicon/225
+  thorium/125
+  surge-alloy/75
+  phase-alloy/100
+]
+research: meltdown
+category: turret
