@@ -50,7 +50,7 @@ requirements:[
   silicon/225
   thorium/125
   surge-alloy/75
-  phase-alloy/100
+  phase-fabric/100
 ]
 research: meltdown
 category: turret
