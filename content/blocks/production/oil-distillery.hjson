@@ -4,6 +4,7 @@
     name: "Oil Distillery",
     rotate: true,
     rotateDraw: false,
+    squareSprite: false
     liquidOutputDirections: [1,2,3],
 
       "consumes": {
