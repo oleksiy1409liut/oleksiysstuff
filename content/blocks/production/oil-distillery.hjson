@@ -1,0 +1,30 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Oil Distillery",
+    rotate: true,
+    rotateDraw: false,
+    liquidOutputDirections: [1,2,3],
+
+      "consumes": {
+         "items": [
+         lead/1,
+    ],
+          liquids: [
+         oil/1.4
+    ],
+          power: 5
+  },
+
+    outputLiquids: [petroleum/0.7,heavy-oil/0.2,refinery-gas/0.5],
+
+    size: 5,
+    health: 6700,
+
+    requirements: [
+        "titanium/200",
+        "silicon/150",
+        "graphite/175",
+        "copper/350"
+    ],
+}
