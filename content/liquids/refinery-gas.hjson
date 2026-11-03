@@ -1,0 +1,15 @@
+name: Refinery Gas
+description: smoke that zaza
+heatCapacity: 0.0
+viscosity: 0.0
+explosiveness: 0.0
+temperature: 0.2
+coolant: false
+gas: true
+color: f7cba4
+flammability: 0.3
+gasColor: f7cba4
+barColor: ffe4ca
+incinerable: false
+lightColor: ffe4ca
+research: oil-distillery
