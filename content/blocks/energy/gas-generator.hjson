@@ -1,0 +1,25 @@
+name: Gas Generator
+description: Burns refinery gas for energy.
+type: ConsumeGenerator
+health: 650
+size: 2
+hasPower: true
+hasLiquids: true
+liquidCapacity: 600
+powerProduction: 2.5
+itemDuration: 60
+
+consumes: {
+liquids: [
+  refinery-gas/0.25
+]
+}
+category: power
+research: oil-generator
+requirements: [
+titanium/35
+lead/35
+graphite/45
+silicon/40
+plastanium/25
+]
