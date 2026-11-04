@@ -1,9 +1,6 @@
 consumes: {
- items: [
-   coal/1
-  ]
  liquids: [
-   petroleum/0.23
+   petroleum/0.2
   ]
   power: 2.5
 }
