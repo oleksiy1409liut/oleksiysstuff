@@ -5,7 +5,7 @@ research: {
   research: core-nucleus
 }
 armor: 120
-hitSize: 80
+hitSize: 56
 squareShape: true
 treadPullOffset: 8
 treadRects: [
