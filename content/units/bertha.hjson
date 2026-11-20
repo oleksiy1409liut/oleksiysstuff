@@ -46,6 +46,10 @@ weapons: [
     shootY: 8
     reload: 600
     recoil: 0.2
+    shoot: {
+      shots: 2
+      shotDelay: 30
+    }
     parts: [
       {
         type: RegionPart
@@ -79,9 +83,8 @@ weapons: [
     shrinkX: 0
     speed: 2
     lifetime: 360
-    splashDamage: 2500
+    splashDamage: 1250
     splashDamageRadius: 160
-    hitEffect: sparkExplosion
     trailColor: CBD97F
     trailParam: 2
     trailLength: 8
