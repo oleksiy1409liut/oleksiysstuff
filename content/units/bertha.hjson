@@ -79,7 +79,7 @@ weapons: [
     shrinkX: 0
     speed: 2
     lifetime: 360
-    splashDamage: 5000
+    splashDamage: 2500
     splashDamageRadius: 160
     hitEffect: sparkExplosion
     trailColor: CBD97F
