@@ -87,6 +87,17 @@ weapons: [
     trailLength: 8
     trailWidth: 2
     trailEffect: none
+      makeFire: true
+      fragBullets: 10
+      fragBullet: {
+        type: ArtilleryBulletType
+        lifetime: 30
+        splashDamageRadius: 16
+        damage: 10
+        splashDamage: 40
+        incendAmount: 3
+        makeFire: true
+      }
     }
   }
 ]
