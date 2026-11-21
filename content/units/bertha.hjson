@@ -39,13 +39,13 @@ weapons: [
     mirror: false
     top: false
     x: 0
-    y: 10
+    y: 5
     layerOffset: 1
     rotate: true
     inaccuracy: 5
     rotateSpeed: 1
     cooldownTime: 30
-    shootY: 18
+    shootY: 42
     reload: 600
     recoil: 0.2
     shoot: {
@@ -53,17 +53,6 @@ weapons: [
       shotDelay: 30
     }
     parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        layer: -1
-        mirror: true
-        blending: additive
-        color: ff2302
-        colorTo: ff2302
-        outline: false
-        progress: warmup
-      }
       {
         type: RegionPart
         suffix: -barrel
@@ -86,7 +75,7 @@ weapons: [
     shrinkX: 0
     speed: 3.25
     lifetime: 480
-    splashDamage: 1250
+    splashDamage: 1200
     splashDamageRadius: 120
     trailColor: CBD97F
     trailParam: 2
