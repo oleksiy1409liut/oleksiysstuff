@@ -3,8 +3,10 @@ type: tank
 research: {
   parent: core-nucleus
   research: core-nucleus
+  name: Bertha
+  description: A heavy-class artillery tank that fires shells that burst into incendiary shrapnel to cause maximum damage, it can be used as a turret on frontlines for its armor and range to bombard enemies.
 }
-armor: 120
+armor: 65
 hitSize: 52
 squareShape: true
 treadPullOffset: 8
@@ -23,7 +25,7 @@ rotateSpeed: 0.5
 speed: 0.2
 flying: false
 health: 54000
-range: 800
+range: 1200
 immunities: [
   burning
   tarred
@@ -81,8 +83,8 @@ weapons: [
     absorbable: false
     shrinkY: 0
     shrinkX: 0
-    speed: 2
-    lifetime: 360
+    speed: 3.25
+    lifetime: 480
     splashDamage: 1250
     splashDamageRadius: 120
     trailColor: CBD97F
@@ -90,13 +92,14 @@ weapons: [
     trailLength: 8
     trailWidth: 2
     trailEffect: none
-      fragBullets: 10
+    incendAmount: 9
+      fragBullets: 15
       fragBullet: {
         type: ArtilleryBulletType
-        lifetime: 30
+        lifetime: 60
         splashDamageRadius: 16
-        damage: 10
-        splashDamage: 40
+        damage: 15
+        splashDamage: 55
         incendAmount: 3
         makeFire: true
       }
