@@ -37,15 +37,15 @@ weapons: [
   {
     name: bertha-gun
     mirror: false
-    top: true
+    top: false
     x: 0
-    y: 20
+    y: 10
     layerOffset: 1
     rotate: true
     inaccuracy: 5
     rotateSpeed: 1
     cooldownTime: 30
-    shootY: 8
+    shootY: 18
     reload: 600
     recoil: 0.2
     shoot: {
