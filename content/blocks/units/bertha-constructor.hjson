@@ -1,0 +1,37 @@
+name: Bertha Constructor
+size: 7
+description: Consumes tons of different resources to manufacture the Heavy-Class artillery tank Bertha.
+type: unitFactory
+configurable: false
+squareSprite: true
+consumes: {
+  power: 40
+  liquids: [
+    plasma-stream/7.2
+    cryofluid/1.2
+  ]
+}
+plans: [
+{
+unit: bertha
+  requirements: [
+  silicon/3500
+  phase-fabric/1500
+  surge-alloy/1250
+  thorium/2000
+  plastanium/2250
+  ]
+time: 3600
+}
+]
+research: reign
+category: units
+requirements: [
+surge-alloy/1250
+plastanium/2250
+phase-fabric/1750
+thorium/2500
+silicon/4000
+titanium/2750
+graphite/3500
+]
