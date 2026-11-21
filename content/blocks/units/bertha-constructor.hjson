@@ -7,7 +7,7 @@ squareSprite: true
 consumes: {
   power: 40
   liquids: [
-    plasma-stream/7.2
+    plasma/7.2
     cryofluid/1.2
   ]
 }
