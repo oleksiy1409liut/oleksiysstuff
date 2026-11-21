@@ -84,13 +84,12 @@ weapons: [
     speed: 2
     lifetime: 360
     splashDamage: 1250
-    splashDamageRadius: 160
+    splashDamageRadius: 120
     trailColor: CBD97F
     trailParam: 2
     trailLength: 8
     trailWidth: 2
     trailEffect: none
-      makeFire: true
       fragBullets: 10
       fragBullet: {
         type: ArtilleryBulletType
