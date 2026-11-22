@@ -60,9 +60,9 @@ weapons: [
     splashDamage: 8
     splashDamageRadius: 12
     trailColor: CBD97F
-    trailParam: 2
-    trailLength: 8
-    trailWidth: 2
+    trailParam: 1
+    trailLength: 4
+    trailWidth: 1
     trailEffect: none
     }
   }
