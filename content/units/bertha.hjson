@@ -1,10 +1,10 @@
 outlineColor: 252525FF
 type: tank
+name: Bertha
+  description: A heavy-class artillery tank that fires shells that burst into incendiary shrapnel to cause maximum damage, it can be used as a turret on frontlines for its armor and range to bombard enemies.
 research: {
   parent: core-nucleus
   research: core-nucleus
-  name: Bertha
-  description: A heavy-class artillery tank that fires shells that burst into incendiary shrapnel to cause maximum damage, it can be used as a turret on frontlines for its armor and range to bombard enemies.
 }
 armor: 65
 hitSize: 52
