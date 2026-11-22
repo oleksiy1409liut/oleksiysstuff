@@ -1,0 +1,69 @@
+outlineColor: 252525FF
+type: tank
+name: Karl
+  description: medium tank that shoots weak artillery shots that create fires.
+research: {
+  parent: core-shard
+  research: core-shard
+}
+armor: 4
+hitSize: 24
+squareShape: true
+singleTarget: false
+omniMovement: false
+rotateMoveFirst: true
+rotateSpeed: 2.75
+speed: 1
+flying: false
+health: 760
+range: 180
+weapons: [
+  {
+    name: karl-gun
+    mirror: false
+    top: false
+    x: 0
+    y: 0
+    layerOffset: 1
+    rotate: true
+    inaccuracy: 6
+    rotateSpeed: 3.25
+    shootY: 8
+    reload: 60
+    recoil: 0.2
+    parts: [
+      {
+        type: RegionPart
+        suffix: -barrel
+        under: true
+        y: 5.5
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            y: -3
+          }
+        ]
+      }
+    ]
+    shootSound: shoot
+    bullet: {
+      type: ArtilleryBulletType
+    absorbable: false
+    shrinkY: 0
+    shrinkX: 0
+    speed: 4.75
+    lifetime: 60
+    height: 4
+    width: 2
+    damage: 10
+    splashDamage: 30
+    splashDamageRadius: 24
+    trailColor: CBD97F
+    trailParam: 1
+    trailLength: 2
+    trailWidth: 1
+    trailEffect: none
+    }
+  }
+]
