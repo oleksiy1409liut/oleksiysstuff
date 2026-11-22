@@ -1,0 +1,70 @@
+outlineColor: 252525FF
+type: tank
+name: Thumper
+  description: light tank that fires from a rifle at enemies, can be used as mobile defence too.
+research: {
+  parent: core-shard
+  research: core-shard
+}
+armor: 2
+hitSize: 14
+squareShape: true
+singleTarget: false
+omniMovement: false
+rotateMoveFirst: true
+rotateSpeed: 1.5
+speed: 1.2
+flying: false
+health: 190
+range: 160
+weapons: [
+  {
+    name: thumper-gun
+    mirror: false
+    top: false
+    x: 0
+    y: 0
+    layerOffset: 1
+    rotate: true
+    inaccuracy: 3
+    rotateSpeed: 1.5
+    shootY: 4
+    reload: 10
+    recoil: 0.2
+    shoot: {
+      shots: 2
+      shotDelay: 30
+    }
+    parts: [
+      {
+        type: RegionPart
+        suffix: -barrel
+        under: true
+        y: 1
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            y: -2
+          }
+        ]
+      }
+    ]
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+    absorbable: false
+    shrinkY: 0
+    shrinkX: 0
+    speed: 6.5
+    lifetime: 60
+    splashDamage: 7
+    splashDamageRadius: 12
+    trailColor: CBD97F
+    trailParam: 2
+    trailLength: 8
+    trailWidth: 2
+    trailEffect: none
+    }
+  }
+]
