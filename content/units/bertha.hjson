@@ -46,11 +46,11 @@ weapons: [
     rotateSpeed: 1
     cooldownTime: 30
     shootY: 42
-    reload: 600
+    reload: 300
     recoil: 0.2
     shoot: {
-      shots: 2
-      shotDelay: 30
+      shots: 1
+      shotDelay: 0
     }
     parts: [
       {
@@ -73,9 +73,9 @@ weapons: [
     absorbable: false
     shrinkY: 0
     shrinkX: 0
-    speed: 3.25
+    speed: 3.5
     lifetime: 480
-    splashDamage: 1200
+    splashDamage: 1300
     splashDamageRadius: 120
     trailColor: CBD97F
     trailParam: 2
@@ -83,13 +83,13 @@ weapons: [
     trailWidth: 2
     trailEffect: none
     incendAmount: 9
-      fragBullets: 15
+      fragBullets: 25
       fragBullet: {
         type: ArtilleryBulletType
         lifetime: 60
-        splashDamageRadius: 16
+        splashDamageRadius: 24
         damage: 15
-        splashDamage: 55
+        splashDamage: 75
         incendAmount: 3
         makeFire: true
       }
