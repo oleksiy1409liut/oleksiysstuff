@@ -64,6 +64,7 @@ weapons: [
     trailLength: 2
     trailWidth: 1
     trailEffect: none
+    incendAmount: 6
     }
   }
 ]
