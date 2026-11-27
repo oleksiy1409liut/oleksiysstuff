@@ -34,7 +34,6 @@ ammoTypes: {
      firstShotDelay: 0.0
      shotDelay: 2.5
   }
-
     parts: [
       {
         type: RegionPart
