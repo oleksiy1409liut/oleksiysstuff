@@ -48,6 +48,7 @@ ammoTypes: {
             y: -2.5
           }
         ]
+      ]  
     shootEffect: {
       type: multiEffect
       effects: [
@@ -95,3 +96,4 @@ envRequired: 0
 enDisabled: 4
 category: turret
 research: swarmer
+}
