@@ -47,8 +47,7 @@ ammoTypes: {
     lifetime: 60
     width: 9
     height: 9
-    splashDamage: 65
-    splashDamageRadius: 32
+    damage: 12
     trailColor: CBD97FFF
     trailParam: 2
     trailLength: 8
