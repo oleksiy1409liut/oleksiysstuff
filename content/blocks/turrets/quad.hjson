@@ -84,7 +84,6 @@ ammoTypes: {
     height: 9
     width: 9
   }
-}
 requirements: [
   lead/75
   copper/100
