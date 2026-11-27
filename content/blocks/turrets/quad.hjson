@@ -1,9 +1,9 @@
 type: ItemTurret
+name: Quad
+description: Shoots copper shells at enemies.
 researchCostMultiplier: 0.1
 squareSprite: false
 outlineColor: 36363C
-name: Quad
-description: Shoots copper shells at enemies.
 size: 2
 health: 760
 reload: 40
@@ -12,44 +12,52 @@ maxAmmo: 20
 recoil: 0.7
 rotateSpeed: 3.5
 shootSound: bang
+
+shoot: {
+  shots: 4
+  firstShotDelay: 0
+  shotDelay: 2.5
+}
+
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      under: true
+      y: 4
+      moves: [
+        {
+          progress: recoil
+          y: -2.5
+        }
+      ]
+    }
+  ]
+}
+
 ammoTypes: {
   copper: {
     type: BasicBulletType
     absorbable: true
-    shrinkY: 0
     shrinkX: 0
+    shrinkY: 0
     speed: 3.5
     lifetime: 60
+    width: 9
+    height: 9
     splashDamage: 65
     splashDamageRadius: 32
     trailColor: CBD97FFF
-    width: 2
-    height: 6
     trailParam: 2
     trailLength: 8
     trailWidth: 2
     trailEffect: none
-    shoot: {
-     shots: 4
-     firstShotDelay: 0.0
-     shotDelay: 2.5
-  }
-    parts: [
-      {
-        type: RegionPart
-        suffix: -barrel
-        under: true
-        y: 4
-        moves: [
-          {
-            type: PartMove
-            progress: recoil
-            y: -2.5
-          }
-        ]
-      ]  
+    status: slow
+    statusDuration: 150
     shootEffect: {
-      type: multiEffect
+      type: MultiEffect
       effects: [
         {
           type: ParticleEffect
@@ -79,11 +87,9 @@ ammoTypes: {
         }
       ]
     }
-    status: slow
-    statusDuration: 150
-    height: 9
-    width: 9
   }
+}
+
 requirements: [
   lead/75
   copper/100
@@ -92,7 +98,6 @@ requirements: [
   graphite/65
 ]
 envRequired: 0
-enDisabled: 4
+envDisabled: 4
 category: turret
 research: swarmer
-}
