@@ -16,6 +16,7 @@ shootSound: bang
 shoot: {
   shots: 4
   barrels: 2
+  spread: 6
   firstShotDelay: 0
   shotDelay: 2.5
 }
